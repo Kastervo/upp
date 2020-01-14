@@ -6,7 +6,7 @@
 a,
 a:focus,
 a:hover {
-  color: #fff;
+  color: #4d4d4d;
 }
 
 /* Custom default button */
@@ -20,8 +20,8 @@ a:hover {
 .btn-secondary:focus {
   color: #fff;
   text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: #004d66;
-  border: 0.1rem solid #004d66;
+  background-color: #000;
+  border: 0.1rem solid #000;
 }
 
 
@@ -37,10 +37,9 @@ body {
   background-size: 100% 100%;
 }
 body {
-  color: #fff;
+  color: #000;
   text-align: center;
-  text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
-}
+  text-shadow: 0 .05rem .1rem rgba(162, 162, 162, 0.5);}
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
@@ -96,8 +95,8 @@ body {
 }
 
 .nav-masthead .active {
-  color: #fff;
-  border-bottom-color: #fff;
+  color: #000;
+  border-bottom-color: #000;
 }
 
 @media (min-width: 48em) {
@@ -128,7 +127,7 @@ body {
  */
 
 .mastfoot {
-  color: rgba(255,255,255,.5);
+  color: rgba(0, 0, 0, 0.5);
 }
 
 
